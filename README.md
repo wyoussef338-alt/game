@@ -15,7 +15,7 @@ You can play the game in your browser here:
 ##  Screenshots
 Here is a preview of the gameplay:
 
-[Game Screenshot](./assets/screenshot.png) 
+[Game Screenshot](screen-shots) 
 
 
 ---
@@ -38,7 +38,7 @@ Here is a preview of the gameplay:
 
 ---
 
-## 🤖 AI Disclosure
+##  AI 
 - **Code:** Written manually by me; if i donot know any thing i question it.
 - **Art & Audio:** Custom and royalty-free assets.
 - **README:** Written completely by hand by me .
