@@ -2,7 +2,7 @@
 
 This is my project 
 
-Sprint & Solve is a web browser game where players have to solve to skip obstacles and reach the end of the level. I made this to learn children while they play by solve mathematics questions and every question is different from the other and when you skip levels every level the questions get harder and they will be more than one question to every obesticale 
+Sprint & Solve is a web browser game where players have to solve to skip obstacles and reach the end of the level. I made this to learn children while they play by solve mathematics questions and every question is different from the other and when you skip levels every level the questions get harder and they will be more than one question to every obistecale and if you answered wrong or the time of the question finished you will lose and appear game over.
 
 ---
 
@@ -16,7 +16,7 @@ You can play the game in your browser here:
 Here is a preview of the gameplay:
 
 [Game Screenshot](./assets/screenshot.png) 
-*(ملاحظة: حط مسار الصورة اللي هترفعها في الفولدر مكان اللينك ده)*
+
 
 ---
 
