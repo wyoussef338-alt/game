@@ -1,0 +1,120 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+
+.game-container{
+    position:relative;
+    width:100vw;
+    height:100vh;
+}
+
+canvas{
+    width:100vw;
+    height:100vh;
+    display:block;
+}
+
+
+.stats{
+    position:absolute;
+    top:25px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:24px;
+    font-weight:bold;
+    display:flex;
+    gap:40px;
+    background:rgba(15,12,41,0.75);
+    padding:12px 30px;
+    border-radius:30px;
+    backdrop-filter:blur(8px);
+    border:1px solid rgba(255,255,255,0.15);
+    z-index:5;
+    box-shadow:0 8px 20px rgba(0,0,0,0.5);
+}
+
+.val-score{color:#4ecca3;}
+.val-level{color:#f8b500;}
+.val-cleared{color:#e94560;}
+
+#start-screen,#game-over-screen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 52, 96, 0.95);
+    padding: 40px 60px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.8);
+    z-index: 20;
+}
+
+#start-screen{border:3px solid #4ecca3;}
+#game-over-screen{border:3px solid #e94560; z-index:30;}
+#quiz-box{
+    display:none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: rgba(15, 52, 96, 0.98);
+    padding:35px 60px;
+    min-width:480px;
+    border-radius:16px;
+    border:3px solid #e94560;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);
+    z-index:10;
+    text-align:center;
+}
+
+#question {
+    margin: 15px 0 20px 0;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#options button {
+    font-size: 24px;
+    padding: 12px 28px;
+    min-width: 65px;
+    border-radius: 8px;
+}
+
+button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 12px 26px;
+    cursor: pointer;
+    background: #e94560;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+#start-btn { background: #4ecca3; color: #1a1a2e; font-weight: bold; }
+#reload-btn { background: #e94560; color: #fff; font-weight: bold; }
+
+button:hover { transform: scale(1.05); opacity: 0.9; }
+
+.timer-text { font-size: 20px; color: #f8b500; font-weight: bold; margin-top: 20px; margin-bottom: 0; }
+.step-text { font-size: 16px; color: #4ecca3; margin-bottom: 5px; }

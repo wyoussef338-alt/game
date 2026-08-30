@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint & Solve 🏃‍♂️➕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+       
+        <div class="stats">
+            <span>Score: <span id="score" class="val-score">0</span></span>
+            <span>Level: <span id="level" class="val-level">1</span></span>
+            <span>Obstacles Passed: <span id="cleared" class="val-cleared">0</span></span>
+        </div>
+
+        <canvas id="gameCanvas"></canvas>
+        
+        
+        <div id="start-screen">
+            <h1>Sprint & Solve 🏃‍♂️➕</h1>
+            <h2>Ready for the Challenge?</h2>
+            <button id="start-btn" onclick="startGame()">Start Game 🚀</button>
+        </div>
+
+        
+        <div id="game-over-screen" style="display: none;">
+            <h2>Game Over! ❌</h2>
+            <p>Final Score: <span id="final-score">0</span></p>
+            <p>Level Reached: <span id="final-level">1</span></p>
+            <button id="reload-btn" onclick="location.reload()">Try Again 🔄</button>
+        </div>
+
+
+        <div id="quiz-box">
+            <div id="quiz-step" class="step-text">Question 1 of 1</div>
+            <h2 id="question">1 + 1 = ?</h2>
+            <div id="options"></div>
+            <p class="timer-text">Time Left: <span id="timer">7</span>s</p>
+        </div>
+    </div>
+
+    <audio id="bg-music" src="game-music-background.mp3" loop></audio>
+    <audio id="quiz-sound" src="appearance-of-obesticale.mp3"></audio>
+    <audio id="game-over-sound" src="game-over.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
