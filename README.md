@@ -31,6 +31,7 @@ Here are previews of the gameplay:
 ---
 
 ## Controls 
+- Use **Mouse** to select the correct math answer.
 - Try to solve questions as long as possible and get the highest score!
 
 ---
@@ -38,7 +39,6 @@ Here are previews of the gameplay:
 1.repository:
    [the repository link] https://github.com/wyoussef338-alt/game.git
 
-2. Open the `index.html` file in any modern web browser or using Live Server in VS Code.
 
 ---
 
