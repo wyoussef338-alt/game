@@ -15,9 +15,11 @@ You can play the game in your browser here:
 ## Screenshots
 Here are previews of the gameplay:
 
-![Screenshot 1](https://github.com/wyoussef338-alt/game/blob/main/screen-shots/%20Screenshot%202026-08-30%20145103.png)
-![Screenshot 2](https://github.com/wyoussef338-alt/game/blob/main/screen-shots/%20Screenshot%202026-08-30%20145116.png)
-![Screenshot 3](https://github.com/wyoussef338-alt/game/blob/main/screen-shots/%20Screenshot%202026-08-30%20145303.png)
+![Screenshot 1](https://github.com/wyoussef338-alt/game/blob/main/screen-shots/%20Screenshot%202026-08-30%20145303.png)
+
+![Screenshot 2](https://github.com/wyoussef338-alt/game/blob/main/screen-shots/%20Screenshot%202026-08-30%20145103.png)
+
+![Screenshot 3](https://github.com/wyoussef338-alt/game/blob/main/screen-shots/%20Screenshot%202026-08-30%20145116.png)
 
 
 ---
